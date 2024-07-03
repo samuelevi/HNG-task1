@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+
+   <!-- font awesome link -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<!-- Header starts -->
+   <header class="header">
+      <a href="#" class="logo">
+         Samuel Evi
+      </a>
+
+      <nav class="navbar">
+         <ul>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#goals">Goals</a>
+         </ul>
+      </nav>
+
+      <div class="icons">
+         <div class="fas fa-bars" id="menu-btn"></div>
+      </div>
+   </header>
+<!-- Header ends -->
+
+<!-- Home section starts -->
+
+<section class="home" id="home">
+
+   <div class="content">
+<!-- Current Day of the week (e.g. Monday, friday):Display the current Day of the week.
+Attribute: data-testid="currentDay"-->
+      <p>Slack Name: <span data-testid="slackDisplayName">@Eviss</span></p>
+      <p data-testid="currentTimeUTC" id="time"></p>
+      <p data-testid="currentDay" id="day"></p>
+      <!-- <div id="clock" class="clock" data-testid="currentTimeUTC">7:10:45</div>
+      <p data-testid="currentDay" id="day"></p> -->
+      <div class="email"><p>Slack Email: <span data-testid="slackEmail">evisammy001@gmail.com</span></p></div>
+   </div>
+
+</section>
+
+<!-- Home section ends -->
+
+<!-- about section starts -->
+
+<section class="about" id="about">
+
+      <h1 class="heading"> <span>about</span> me</h1>
+
+      <div class="row">
+
+         <div class="image">
+            <img src="./images/unnamed.png" alt="mine" data-testid="slackProfilePicture">
+         </div>
+
+         <div class="content">
+            <h3>A Brief Introduction</h3>
+            <p>My name is Samuel Evi, and I'm a frontend developer with a passion for building innovative and user-friendly interfaces. When I'm not coding, you can find me curled up with a good book, as reading is my favorite way to unwind and expand my knowledge. I'm a curious and determined individual who values continuous learning and growth. My goal is to create impactful digital experiences that make a difference in people's lives. I'm excited to connect with like-minded individuals and explore new opportunities in the tech world."</p>
+
+         </div>
+
+      </div>
+</section>
+
+<!-- about section ends -->
+
+<!-- menu section starts -->
+
+<section class="goals" id="goals">
+
+   <h1 class="heading"> my <span>goals</span> </h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <h3>Develop a specialization:</h3>
+         <p>
+            Become an expert in a programming language (React).
+         </p>
+         <p>
+            Master a domain (cybersecurity).
+         </p>
+      </div>
+
+      <div class="box">
+         <h3>Improve soft skills:</h3>
+         <p>
+            Develop strong communication and public speaking skills.
+         </p>
+         <p>
+            Enhance my collaboration and teamwork abilities.
+         </p>
+         
+      </div>
+
+      <div class="box">
+         <h3>Mentor or teach others:</h3>
+         <p>
+            Share my knowledge through blogging, YouTube tutorials, or online courses.
+         </p>
+         <p><Mentor junior developers or students./p>
+      </div>
+
+      <div class="box">
+         <h3>Participate in the tech community:</h3>
+         <p>Attend conferences, meetups, or hackathons.</p>
+         <p>Contribute to open-source projects or participate in coding challenges.</p>
+      </div>
+
+   </div>
+
+</section>
+
+<!-- menu section ends -->
+<!-- links start -->
+
+<section class="links" id="links">
+   <h4>Useful links</h4>
+   <div class="redirect">
+      <ul>
+         <li><a href="https://hng.tech/learn" data-testid="hngLink">hng.tech/learn</a></li>
+         <li><a href="https://keyword.dog/" data-testid="keywordLink">Keyword.dog</a></li>
+         <li><a href="http://scrapeanyweb.com/"  data-testid="scrapeanywebLink">scrapeanyweb.site</a></li>
+      </ul>
+   </div>
+
+</section>
+
+<!-- link ends -->
+<!-- footer section starts-->
+
+<section class="footer">
+   <div class="share">
+      <a href="https://x.com/SamuelEvi2" class="fab fa-twitter"></a>
+      <a href="https://medium.com/@evisammy001" class="fab fa-medium"></a>
+   </div>
+   
+   <div class="links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#goals">Goals</a>
+   </div>
+
+   <div class="credit">
+      created by <span>Evi</span> &copy; 2024</p>
+   </div>
+</section>
+<!-- footer section ends -->
+
+
+    <script src="app.js"></script>
+</body>
+</html>
